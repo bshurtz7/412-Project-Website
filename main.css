@@ -1,0 +1,146 @@
+#img1 {
+ 	    width: 900px;
+		height: 400px;
+}
+
+#img1point5 {
+ 	    display: block;
+		width: 850px;
+		height: 250px;
+		margin-left: auto;
+		margin-right: auto;
+}
+#img2 {
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 150px;
+}
+#img2point5 {
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100px;
+}
+#img2point9 {
+		border-radius: 50%;
+		width: 150px;
+}
+#img3 {
+ 	    border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 150px;
+		width: 150px;
+}
+
+#img4 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+		height: 200px;
+}
+#img5 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+#img6 {
+		float: right;
+}
+#img7 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+#padding {
+	    padding-top: 50px;
+	    padding-right: 20px;
+	    padding-bottom: 50px;
+	    padding-left: 80px;
+}
+
+#h2point1 {
+		text-align: center;
+}
+		
+
+#body2 {
+		font-family:Helvetica, Arial, sans-serif;
+		margin:0;
+		padding:0;
+		font-size:100%; }
+		
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+		
+#head1 {
+		font-size: 26px;}
+#head2 {
+		font-size: 22px}
+	
+
+#bod {
+		width: 962px;
+		background-color: white;
+		margin: 15px auto;
+		border: 2px solid black; }
+
+h2 { 
+		padding: 1em; }
+
+#head {
+		border-top: 2px solid black;
+		border-bottom: 2px solid black; }
+
+main {  width: 374px;
+	    float: left;
+	    padding: 20px; 
+	    margin-left: 20px;}
+
+#aside1 {
+		float: right; 
+		padding: 20px;		
+}
+#article1 {
+		float: left;
+		padding: 20px;
+}
+#section1 {
+		float:left;
+		padding: 20px;
+}
+
+#footer {
+		clear: both;
+		border-top: 2px solid black; }
+
+.figure {
+    position: relative;
+    max-width: 100%;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}

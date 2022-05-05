@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width">
+	<body style="background-color: LightGray";>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<html lang="en">
+	<meta charset="utf-8">
+	<title> Home </title>
+  	<meta name="description" content="">
+	<meta name="keywords" content="">
+  	<meta name="description" content=""> 
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="SlickNav-master/dist/slicknav.css"/>	
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	
+</head>
+ 
+
+ <body>
+ 
+	<style>
+	.content{
+		max-width: 500px;
+		margin: auto;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333333; }		
+
+	li {
+		float: left; }
+
+	ul li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none; }
+
+	ul li a.current { 
+		text-decoration: none; }
+	</style>
+
+	<ul id="menu">
+		<li><a href="projecthome.html">Home</a></li>
+		<li><a href="roster.html">Roster</a></li>
+		<li><a href="files.html">Project Files</a></li>
+		<li><a href="home.html">Mobile Fair Website</a></li>
+	</ul>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="SlickNav-master/dist/jquery.slicknav.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#menu').slicknav();
+		});
+	</script>
+      
+	<div class="content">
+		<h1> 412 Project Managment Files</h1>
+		
+		<a href="Mobile Fair Scope Management Plan.docx" download="Scope Managment Plan">
+			<h3>Scope Management Plan</h3>
+		</a>
+		<a href="Mobile Fair Team Roster.docx" download="Team Roster">
+			<h3>Team Roster</h3>
+		</a>
+		<a href="Project Charter Mobile Fair.docx" download="Project Charter">
+			<h3>Project Charter</h3>
+		</a>
+		<a href="project managment.docx" download="project managment">
+			<h3>Project Managment Diagram</h3>
+		</a>
+		<a href="Mobile Fair WBS and Gantt.mpp" download="WBS and Gantt">
+			<h3>WBS and Gantt</h3>
+		</a>
+		<a href="project managment.docx" download="project managment">
+			<h3>Project Managment Diagram</h3>
+		</a>
+	
+	</div>
+	
+	
+	
+  </body>
+  </html>
